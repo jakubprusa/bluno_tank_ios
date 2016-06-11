@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		D320BFAE1D0C9218007B60BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320BFAD1D0C9218007B60BF /* AppDelegate.swift */; };
 		D320BFB01D0C9218007B60BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320BFAF1D0C9218007B60BF /* ViewController.swift */; };
-		D320BFB31D0C9218007B60BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320BFB11D0C9218007B60BF /* Main.storyboard */; };
-		D320BFB61D0C9218007B60BF /* Bluller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D320BFB41D0C9218007B60BF /* Bluller.xcdatamodeld */; };
 		D320BFB81D0C9218007B60BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D320BFB71D0C9218007B60BF /* Assets.xcassets */; };
 		D320BFBB1D0C9218007B60BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320BFB91D0C9218007B60BF /* LaunchScreen.storyboard */; };
 		D320BFC61D0C9219007B60BF /* BlullerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320BFC51D0C9219007B60BF /* BlullerTests.swift */; };
 		D320BFD11D0C9219007B60BF /* BlullerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320BFD01D0C9219007B60BF /* BlullerUITests.swift */; };
+		D320BFDF1D0C9EB1007B60BF /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D320BFDE1D0C9EB1007B60BF /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		D320BFAA1D0C9218007B60BF /* Bluller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D320BFAD1D0C9218007B60BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D320BFAF1D0C9218007B60BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D320BFB21D0C9218007B60BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D320BFB51D0C9218007B60BF /* Bluller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bluller.xcdatamodel; sourceTree = "<group>"; };
 		D320BFB71D0C9218007B60BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D320BFBA1D0C9218007B60BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D320BFBC1D0C9218007B60BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		D320BFCC1D0C9219007B60BF /* BlullerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlullerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D320BFD01D0C9219007B60BF /* BlullerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlullerUITests.swift; sourceTree = "<group>"; };
 		D320BFD21D0C9219007B60BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D320BFDE1D0C9EB1007B60BF /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D320BFDF1D0C9EB1007B60BF /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +78,7 @@
 		D320BFA11D0C9218007B60BF = {
 			isa = PBXGroup;
 			children = (
+				D320BFDE1D0C9EB1007B60BF /* SnapKit.framework */,
 				D320BFAC1D0C9218007B60BF /* Bluller */,
 				D320BFC41D0C9219007B60BF /* BlullerTests */,
 				D320BFCF1D0C9219007B60BF /* BlullerUITests */,
@@ -101,11 +101,9 @@
 			children = (
 				D320BFAD1D0C9218007B60BF /* AppDelegate.swift */,
 				D320BFAF1D0C9218007B60BF /* ViewController.swift */,
-				D320BFB11D0C9218007B60BF /* Main.storyboard */,
 				D320BFB71D0C9218007B60BF /* Assets.xcassets */,
 				D320BFB91D0C9218007B60BF /* LaunchScreen.storyboard */,
 				D320BFBC1D0C9218007B60BF /* Info.plist */,
-				D320BFB41D0C9218007B60BF /* Bluller.xcdatamodeld */,
 			);
 			path = Bluller;
 			sourceTree = "<group>";
@@ -138,6 +136,7 @@
 				D320BFA61D0C9218007B60BF /* Sources */,
 				D320BFA71D0C9218007B60BF /* Frameworks */,
 				D320BFA81D0C9218007B60BF /* Resources */,
+				D320BFE01D0C9EF5007B60BF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -234,7 +233,6 @@
 			files = (
 				D320BFBB1D0C9218007B60BF /* LaunchScreen.storyboard in Resources */,
 				D320BFB81D0C9218007B60BF /* Assets.xcassets in Resources */,
-				D320BFB31D0C9218007B60BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +252,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D320BFE01D0C9EF5007B60BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D320BFA61D0C9218007B60BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D320BFB61D0C9218007B60BF /* Bluller.xcdatamodeld in Sources */,
 				D320BFB01D0C9218007B60BF /* ViewController.swift in Sources */,
 				D320BFAE1D0C9218007B60BF /* AppDelegate.swift in Sources */,
 			);
@@ -297,14 +311,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D320BFB11D0C9218007B60BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D320BFB21D0C9218007B60BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D320BFB91D0C9218007B60BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -403,6 +409,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Bluller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.quanti.Bluller;
@@ -414,6 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Bluller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.quanti.Bluller;
@@ -504,19 +518,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D320BFB41D0C9218007B60BF /* Bluller.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D320BFB51D0C9218007B60BF /* Bluller.xcdatamodel */,
-			);
-			currentVersion = D320BFB51D0C9218007B60BF /* Bluller.xcdatamodel */;
-			path = Bluller.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D320BFA21D0C9218007B60BF /* Project object */;
 }

@@ -1,14 +1,12 @@
-
 //
 //  AppDelegate.swift
-//  Bluller
+//  Example-iOS
 //
-//  Created by Jakub Prusa on 6/11/16.
-//  Copyright © 2016 Jakub Prusa. All rights reserved.
+//  Created by Spiros Gerokostas on 01/03/16.
+//  Copyright © 2016 SnapKit Team. All rights reserved.
 //
 
 import UIKit
-import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,16 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        /**
-         *  Get rid of story board
-         */
-        window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        if let window = window {
-            let firstViewController = UINavigationController(rootViewController: ViewController())
-            window.rootViewController = firstViewController
-            window.makeKeyAndVisible()
-        }
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        let listViewController:ListViewController = ListViewController()
+        let navigationController:UINavigationController = UINavigationController(rootViewController: listViewController);
+        
+        self.window!.rootViewController = navigationController;
+        
+        self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.makeKeyAndVisible()
         
         return true
     }
@@ -51,8 +49,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-        // Saves changes in the application's managed object context before the application terminates.
     }
+
 
 }
 
