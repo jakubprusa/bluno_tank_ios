@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D320BFAE1D0C9218007B60BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320BFAD1D0C9218007B60BF /* AppDelegate.swift */; };
+		D320BFB01D0C9218007B60BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320BFAF1D0C9218007B60BF /* ViewController.swift */; };
+		D320BFB31D0C9218007B60BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320BFB11D0C9218007B60BF /* Main.storyboard */; };
+		D320BFB61D0C9218007B60BF /* Bluller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D320BFB41D0C9218007B60BF /* Bluller.xcdatamodeld */; };
+		D320BFB81D0C9218007B60BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D320BFB71D0C9218007B60BF /* Assets.xcassets */; };
+		D320BFBB1D0C9218007B60BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D320BFB91D0C9218007B60BF /* LaunchScreen.storyboard */; };
+		D320BFC61D0C9219007B60BF /* BlullerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320BFC51D0C9219007B60BF /* BlullerTests.swift */; };
+		D320BFD11D0C9219007B60BF /* BlullerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320BFD01D0C9219007B60BF /* BlullerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D320BFC21D0C9219007B60BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D320BFA21D0C9218007B60BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D320BFA91D0C9218007B60BF;
+			remoteInfo = Bluller;
+		};
+		D320BFCD1D0C9219007B60BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D320BFA21D0C9218007B60BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D320BFA91D0C9218007B60BF;
+			remoteInfo = Bluller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D320BFAA1D0C9218007B60BF /* Bluller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D320BFAD1D0C9218007B60BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D320BFAF1D0C9218007B60BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D320BFB21D0C9218007B60BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D320BFB51D0C9218007B60BF /* Bluller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bluller.xcdatamodel; sourceTree = "<group>"; };
+		D320BFB71D0C9218007B60BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D320BFBA1D0C9218007B60BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D320BFBC1D0C9218007B60BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D320BFC11D0C9219007B60BF /* BlullerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlullerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D320BFC51D0C9219007B60BF /* BlullerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlullerTests.swift; sourceTree = "<group>"; };
+		D320BFC71D0C9219007B60BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D320BFCC1D0C9219007B60BF /* BlullerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlullerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D320BFD01D0C9219007B60BF /* BlullerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlullerUITests.swift; sourceTree = "<group>"; };
+		D320BFD21D0C9219007B60BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D320BFA71D0C9218007B60BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D320BFBE1D0C9219007B60BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D320BFC91D0C9219007B60BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D320BFA11D0C9218007B60BF = {
+			isa = PBXGroup;
+			children = (
+				D320BFAC1D0C9218007B60BF /* Bluller */,
+				D320BFC41D0C9219007B60BF /* BlullerTests */,
+				D320BFCF1D0C9219007B60BF /* BlullerUITests */,
+				D320BFAB1D0C9218007B60BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D320BFAB1D0C9218007B60BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D320BFAA1D0C9218007B60BF /* Bluller.app */,
+				D320BFC11D0C9219007B60BF /* BlullerTests.xctest */,
+				D320BFCC1D0C9219007B60BF /* BlullerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D320BFAC1D0C9218007B60BF /* Bluller */ = {
+			isa = PBXGroup;
+			children = (
+				D320BFAD1D0C9218007B60BF /* AppDelegate.swift */,
+				D320BFAF1D0C9218007B60BF /* ViewController.swift */,
+				D320BFB11D0C9218007B60BF /* Main.storyboard */,
+				D320BFB71D0C9218007B60BF /* Assets.xcassets */,
+				D320BFB91D0C9218007B60BF /* LaunchScreen.storyboard */,
+				D320BFBC1D0C9218007B60BF /* Info.plist */,
+				D320BFB41D0C9218007B60BF /* Bluller.xcdatamodeld */,
+			);
+			path = Bluller;
+			sourceTree = "<group>";
+		};
+		D320BFC41D0C9219007B60BF /* BlullerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D320BFC51D0C9219007B60BF /* BlullerTests.swift */,
+				D320BFC71D0C9219007B60BF /* Info.plist */,
+			);
+			path = BlullerTests;
+			sourceTree = "<group>";
+		};
+		D320BFCF1D0C9219007B60BF /* BlullerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D320BFD01D0C9219007B60BF /* BlullerUITests.swift */,
+				D320BFD21D0C9219007B60BF /* Info.plist */,
+			);
+			path = BlullerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D320BFA91D0C9218007B60BF /* Bluller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D320BFD51D0C9219007B60BF /* Build configuration list for PBXNativeTarget "Bluller" */;
+			buildPhases = (
+				D320BFA61D0C9218007B60BF /* Sources */,
+				D320BFA71D0C9218007B60BF /* Frameworks */,
+				D320BFA81D0C9218007B60BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluller;
+			productName = Bluller;
+			productReference = D320BFAA1D0C9218007B60BF /* Bluller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D320BFC01D0C9219007B60BF /* BlullerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D320BFD81D0C9219007B60BF /* Build configuration list for PBXNativeTarget "BlullerTests" */;
+			buildPhases = (
+				D320BFBD1D0C9219007B60BF /* Sources */,
+				D320BFBE1D0C9219007B60BF /* Frameworks */,
+				D320BFBF1D0C9219007B60BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D320BFC31D0C9219007B60BF /* PBXTargetDependency */,
+			);
+			name = BlullerTests;
+			productName = BlullerTests;
+			productReference = D320BFC11D0C9219007B60BF /* BlullerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D320BFCB1D0C9219007B60BF /* BlullerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D320BFDB1D0C9219007B60BF /* Build configuration list for PBXNativeTarget "BlullerUITests" */;
+			buildPhases = (
+				D320BFC81D0C9219007B60BF /* Sources */,
+				D320BFC91D0C9219007B60BF /* Frameworks */,
+				D320BFCA1D0C9219007B60BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D320BFCE1D0C9219007B60BF /* PBXTargetDependency */,
+			);
+			name = BlullerUITests;
+			productName = BlullerUITests;
+			productReference = D320BFCC1D0C9219007B60BF /* BlullerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D320BFA21D0C9218007B60BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jakub Prusa";
+				TargetAttributes = {
+					D320BFA91D0C9218007B60BF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D320BFC01D0C9219007B60BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D320BFA91D0C9218007B60BF;
+					};
+					D320BFCB1D0C9219007B60BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D320BFA91D0C9218007B60BF;
+					};
+				};
+			};
+			buildConfigurationList = D320BFA51D0C9218007B60BF /* Build configuration list for PBXProject "Bluller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D320BFA11D0C9218007B60BF;
+			productRefGroup = D320BFAB1D0C9218007B60BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D320BFA91D0C9218007B60BF /* Bluller */,
+				D320BFC01D0C9219007B60BF /* BlullerTests */,
+				D320BFCB1D0C9219007B60BF /* BlullerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D320BFA81D0C9218007B60BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D320BFBB1D0C9218007B60BF /* LaunchScreen.storyboard in Resources */,
+				D320BFB81D0C9218007B60BF /* Assets.xcassets in Resources */,
+				D320BFB31D0C9218007B60BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D320BFBF1D0C9219007B60BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D320BFCA1D0C9219007B60BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D320BFA61D0C9218007B60BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D320BFB61D0C9218007B60BF /* Bluller.xcdatamodeld in Sources */,
+				D320BFB01D0C9218007B60BF /* ViewController.swift in Sources */,
+				D320BFAE1D0C9218007B60BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D320BFBD1D0C9219007B60BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D320BFC61D0C9219007B60BF /* BlullerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D320BFC81D0C9219007B60BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D320BFD11D0C9219007B60BF /* BlullerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D320BFC31D0C9219007B60BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D320BFA91D0C9218007B60BF /* Bluller */;
+			targetProxy = D320BFC21D0C9219007B60BF /* PBXContainerItemProxy */;
+		};
+		D320BFCE1D0C9219007B60BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D320BFA91D0C9218007B60BF /* Bluller */;
+			targetProxy = D320BFCD1D0C9219007B60BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D320BFB11D0C9218007B60BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D320BFB21D0C9218007B60BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D320BFB91D0C9218007B60BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D320BFBA1D0C9218007B60BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D320BFD31D0C9219007B60BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D320BFD41D0C9219007B60BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D320BFD61D0C9219007B60BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bluller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.quanti.Bluller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D320BFD71D0C9219007B60BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bluller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.quanti.Bluller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D320BFD91D0C9219007B60BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlullerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.quanti.BlullerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluller.app/Bluller";
+			};
+			name = Debug;
+		};
+		D320BFDA1D0C9219007B60BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlullerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.quanti.BlullerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluller.app/Bluller";
+			};
+			name = Release;
+		};
+		D320BFDC1D0C9219007B60BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlullerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.quanti.BlullerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bluller;
+			};
+			name = Debug;
+		};
+		D320BFDD1D0C9219007B60BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlullerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.quanti.BlullerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bluller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D320BFA51D0C9218007B60BF /* Build configuration list for PBXProject "Bluller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D320BFD31D0C9219007B60BF /* Debug */,
+				D320BFD41D0C9219007B60BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D320BFD51D0C9219007B60BF /* Build configuration list for PBXNativeTarget "Bluller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D320BFD61D0C9219007B60BF /* Debug */,
+				D320BFD71D0C9219007B60BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D320BFD81D0C9219007B60BF /* Build configuration list for PBXNativeTarget "BlullerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D320BFD91D0C9219007B60BF /* Debug */,
+				D320BFDA1D0C9219007B60BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D320BFDB1D0C9219007B60BF /* Build configuration list for PBXNativeTarget "BlullerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D320BFDC1D0C9219007B60BF /* Debug */,
+				D320BFDD1D0C9219007B60BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D320BFB41D0C9218007B60BF /* Bluller.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D320BFB51D0C9218007B60BF /* Bluller.xcdatamodel */,
+			);
+			currentVersion = D320BFB51D0C9218007B60BF /* Bluller.xcdatamodel */;
+			path = Bluller.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D320BFA21D0C9218007B60BF /* Project object */;
+}
